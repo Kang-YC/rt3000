@@ -1,0 +1,8 @@
+prefix=/home/kang/dev/rt3000/devel
+
+Name: gpsd_client
+Description: Description of gpsd_client
+Version: 0.2.0
+Cflags: 
+Libs: -L/home/kang/dev/rt3000/devel/lib 
+Requires: 

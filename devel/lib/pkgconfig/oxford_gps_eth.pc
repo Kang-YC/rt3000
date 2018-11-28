@@ -1,0 +1,8 @@
+prefix=/home/kang/dev/rt3000/devel
+
+Name: oxford_gps_eth
+Description: Description of oxford_gps_eth
+Version: 1.0.0
+Cflags: 
+Libs: -L/home/kang/dev/rt3000/devel/lib 
+Requires: 
