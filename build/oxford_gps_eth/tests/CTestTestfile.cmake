@@ -1,0 +1,9 @@
+# CMake generated Testfile for 
+# Source directory: /home/kang/dev/rt3000/src/oxford_gps_eth/tests
+# Build directory: /home/kang/dev/rt3000/build/oxford_gps_eth/tests
+# 
+# This file includes the relevant testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.
+add_test(_ctest_oxford_gps_eth_roslaunch-check_.._launch "/home/kang/dev/rt3000/build/catkin_generated/env_cached.sh" "/usr/bin/python" "/opt/ros/kinetic/share/catkin/cmake/test/run_tests.py" "/home/kang/dev/rt3000/build/test_results/oxford_gps_eth/roslaunch-check_.._launch.xml" "--return-code" "/usr/bin/cmake -E make_directory /home/kang/dev/rt3000/build/test_results/oxford_gps_eth" "/opt/ros/kinetic/share/roslaunch/cmake/../scripts/roslaunch-check -o '/home/kang/dev/rt3000/build/test_results/oxford_gps_eth/roslaunch-check_.._launch.xml' '/home/kang/dev/rt3000/src/oxford_gps_eth/tests/../launch' ")
+add_test(_ctest_oxford_gps_eth_gtest_test_packet "/home/kang/dev/rt3000/build/catkin_generated/env_cached.sh" "/usr/bin/python" "/opt/ros/kinetic/share/catkin/cmake/test/run_tests.py" "/home/kang/dev/rt3000/build/test_results/oxford_gps_eth/gtest-test_packet.xml" "--return-code" "/home/kang/dev/rt3000/devel/lib/oxford_gps_eth/test_packet --gtest_output=xml:/home/kang/dev/rt3000/build/test_results/oxford_gps_eth/gtest-test_packet.xml")
+add_test(_ctest_oxford_gps_eth_rostest_tests_system.test "/home/kang/dev/rt3000/build/catkin_generated/env_cached.sh" "/usr/bin/python" "/opt/ros/kinetic/share/catkin/cmake/test/run_tests.py" "/home/kang/dev/rt3000/build/test_results/oxford_gps_eth/rostest-tests_system.xml" "--return-code" "/opt/ros/kinetic/share/rostest/cmake/../../../bin/rostest --pkgdir=/home/kang/dev/rt3000/src/oxford_gps_eth --package=oxford_gps_eth --results-filename tests_system.xml --results-base-dir \"/home/kang/dev/rt3000/build/test_results\" /home/kang/dev/rt3000/src/oxford_gps_eth/tests/system.test ")
